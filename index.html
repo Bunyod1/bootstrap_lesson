@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Include Bootstrap</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" src="mystyle.css" type="text/css">
+    <link href="../resources/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <script src="../resources/jquery.js"></script>
+    <script src="../resources/bootstrap/js/bootstrap.js"></script>
+    <style>
+        .table>tbody>tr>td, .table>tfoot>tr>td{
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="text-center">Lorem ipsum doler sit amet</h1>
+        <hr class="section-heading-spacer">
+        <div class="container">
+
+            <div style="width: 49%; vertical-align: middle; height: 200px; display: inline-block">
+                <h2 class="section-heading" >Death to the Stock Photo: <br>Special Thanks</h2>
+                <p class="lead">A special thanks to <a target="_blank" href="http://join.deathtothestockphoto.com/">Death to the Stock Photo</a> for providing the photographs that you see in this template. Visit their website to become a member.</p>
+            </div>
+            <div style="width: 49%; height: 200px; display: inline-block; text-align: center;">
+                <img src="../resources/images/ipad.png" class="img-rounded" height="200px">
+            </div>
+        </div>
+
+        <br>
+        <br>
+        <div class="container">
+            <div class="row">
+
+               <div style="width: 49%; height: 200px; vertical-align: middle;  display: inline-block; ">
+                    <img src="../resources/images/dog.png" class="img-rounded" height="200px">
+                </div>
+
+                <div style="width: 49%; vertical-align: middle; height: 200px; display: inline-block">
+                    <h2 class="section-heading" >3D Device Mockups<br> by PSDCovers</h2>
+                    <p class="lead">
+                        Turn your 2D designs into high quality, 3D product shots in seconds using free Photoshop actions by
+                        <a target="_blank" href="http://www.psdcovers.com/">PSDCovers</a>! Visit their website to download some of their awesome, free photoshop actions!
+                    </p>
+                </div>
+            </div>
+         </div>
+
+        <hr class="section-heading-spacer">
+
+        <table id="cart" class="table table-hover table-condensed">
+            <thead>
+            <tr>
+                <th style="width:5%">Photo</th>
+                <th style="width:45%">Product</th>
+                <th style="width:10%">Price</th>
+                <th style="width:8%">Quantity</th>
+                <th style="width:22%" class="text-center">Subtotal</th>
+                <th style="width:10%"></th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>
+                    <img src="../resources/images/code-is-fun.jpg" width="100" height="100" class="img-rounded"/>
+                </td>
+                <td>
+                    <h4 class="nomargin">Product 1</h4>
+                    <p>Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet.</p>
+                </td>
+                <td>$1.99</td>
+                <td>
+                    <input type="number" class="form-control text-center" value="1">
+                </td>
+                <td class="text-center">1.99</td>
+                <td class="actions">
+                    <button class="btn btn-info btn-sm"><i class="glyphicon glyphicon-edit"></i></button>
+                    <button class="btn btn-danger btn-sm"><i class="glyphicon glyphicon-remove"></i></button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="../resources/images/code-is-fun.jpg" width="100" height="100" class="img-rounded"/>
+                </td>
+                <td>
+                    <h4 class="nomargin">Product 1</h4>
+                    <p>Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet.</p>
+                </td>
+                <td>$1.99</td>
+                <td>
+                    <input type="number" class="form-control text-center" value="1">
+                </td>
+                <td class="text-center">1.99</td>
+                <td class="actions">
+                    <button class="btn btn-info btn-sm"><i class="glyphicon glyphicon-refresh"></i></button>
+                    <button class="btn btn-danger btn-sm"><i class="glyphicon glyphicon-remove"></i></button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="../resources/images/code-is-fun.jpg" width="100" height="100" class="img-rounded"/>
+                </td>
+                <td >
+                    <h4 class="nomargin">Product 1</h4>
+                    <p>Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet.</p>
+                </td>
+                <td>$1.99</td>
+                <td>
+                    <input type="number" class="form-control text-center" value="1">
+                </td>
+                <td class="text-center">1.99</td>
+                <td class="actions" >
+                    <button class="btn btn-info btn-sm"><i class="glyphicon glyphicon-refresh"></i></button>
+                    <button class="btn btn-danger btn-sm"><i class="glyphicon glyphicon-remove"></i></button>
+                </td>
+            </tr>
+            </tbody>
+            <tfoot>
+            <tr>
+                <td><a href="#" class="btn btn-warning">Continue Shopping</a></td>
+                <td colspan="2" class="hidden-lg"></td>
+                <td class="text-center"><b>Total $1.99</b></td>
+                <td><a href="#" class="btn btn-success btn-block">Checkout</a></td>
+            </tr>
+            </tfoot>
+        </table>
+    </div>
+</body>
+</html>
